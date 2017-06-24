@@ -1,20 +1,33 @@
 <!DOCTYPE html>
+
 <html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>{% if page.title %} {{ page.title }} | {% endif %} {{ site.name }}</title>
+        <link rel="stylesheet" href="{{site.baseurl}}/style.css" />
+        <meta name="description" content="{{site.description}}"/>
+        <meta name="author" content="{{site.author}}"/>
+        <link rel="author" href="humans.txt"/>
+        <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="{{site.baseurl}}/feed.xml" />
+        <!--[if IE 7]><link rel="stylesheet" href="{{site.baseurl}}/resources/fontello/css/fontello-ie7.css"><![endif]-->
+    </head>
 
-  {% include head.html %}
+    <body>
 
-  <body>
+    <header><h2><a href="{{site.baseurl}}/">Zealous Press</a></h2></header>
 
-    {% include header.html %}
+        <main>
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
+            {{ content }}
 
-    {% include footer.html %}
+        </main>
 
-  </body>
+        <!-- <footer>
+            <hr />
+            <p>&copy; <time>2017</time> {{ site.author }}</p>
+        </footer> -->
+
+        <script src="{{site.baseurl}}/scripts.js"></script>
+    </body>
 
 </html>

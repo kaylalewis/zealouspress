@@ -1,48 +1,48 @@
 ---
-layout: main
+layout: default
+title: Home
 ---
-<!-- <div id="owl-demo" class="owl-carousel owl-theme">
 
-  <div class="item"><img src="img/st1.jpg" alt="One"></div>
-  <div class="item"><img src="img/st3.jpg" alt="One"></div>
-  <div class="item"><img src="img/st4.jpg" alt="One"></div>
-  <div class="item"><img src="img/st5.jpg" alt="One"></div>
+<nav>
 
-</div> -->
+		<ul>
+				<li><i class="icon-home"></i>   <a href="{{site.baseurl}}/">Home</a></li>
+				<li><i class="icon-mail"></i>   <a href="{{site.baseurl}}/contact.html">Contact</a></li>
+		</ul>
+</nav>
 
-<div class="home">
-<h2>Spring Collection</h2>
+<!-- Show last 5 posts here -->
+{% for post in site.posts %}
+	<article>
 
-    {% for post in site.posts %}
-<div class="col-md-4 entries">
+        <header>
+            <h2><a href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a></h2>
+						<p>{{post.description}}</p>
+						<p>{{post.author}}</p>
+						<img src="{{post.image}}"></img>
+        </header>
+
+	</article>
+{% endfor %}
 
 
-        <h3>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><img class="mainImg" src="{{ post.image }}"> <br>{{ post.title }} </a>
-        </h3>
-        <h4>{{post.subText}}</h4>
-    </div>
-    {% endfor %}
+<div id="paginator">
+    {% if paginator.next_page %}
+            <a href="{{site.baseurl}}/page{{paginator.next_page}}">
+            &laquo; Older Posts</a>
+    {% endif %}
 
-
+    {% if paginator.previous_page %}
+        {% if paginator.previous_page == 1 %}
+                <span class="more">
+                <a href="{{site.baseurl}}/">
+                Newer Posts &raquo; </a>
+                </span>
+        {% else %}
+                <span class="more">
+                <a href="{{site.baseurl}}/page{{paginator.previous_page}}">
+                Newer Posts &raquo; </a>
+                </span>
+        {% endif %}
+    {% endif %}
 </div>
-<script>
-$(document).ready(function() {
-
-  $("#owl-demo").owlCarousel({
-
-      navigation : false, // Show next and prev buttons
-      singleItem:true,
-      // autoPlay: 3000
-
-      // "singleItem:true" is a shortcut for:
-      // items : 1,
-      // itemsDesktop : false,
-      // itemsDesktopSmall : false,
-      // itemsTablet: false,
-      // itemsMobile : false
-
-  });
-
-})
-</script>
