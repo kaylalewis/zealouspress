@@ -1,6 +1,6 @@
 ---
 layout: post
-title: But You Told Me You Loved Me!
+title: Sorry I Made It Weird
 description: Sad Girl Pin
 category: Sad Girl
 author: Zach and Kayla

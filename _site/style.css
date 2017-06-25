@@ -4,3 +4,18 @@ body {
     color:#564b47;
     margin: 40px
 }
+
+ul li{
+
+  list-style-type: none;
+}
+
+#mainGrid {
+
+display: inline-block;
+}
+
+img{
+
+  width: 20%;
+}

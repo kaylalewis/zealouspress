@@ -3,30 +3,22 @@ layout: default
 title: Home
 ---
 
-<nav>
-
-		<ul>
-				<li><i class="icon-home"></i>   <a href="{{site.baseurl}}/">Home</a></li>
-				<li><i class="icon-mail"></i>   <a href="{{site.baseurl}}/contact.html">Contact</a></li>
-		</ul>
-</nav>
 
 <!-- Show last 5 posts here -->
 {% for post in site.posts %}
-	<article>
-
-        <header>
-            <h2><a href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a></h2>
+<div class="row">
+	<div class="col-md-4">
+					<a href="{{site.baseurl}}{{post.url}}"><img src="{{post.image}}"></a>
+            <h4><a href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a></h4>
 						<p>{{post.description}}</p>
 						<p>{{post.author}}</p>
-						<img src="{{post.image}}"></img>
-        </header>
 
-	</article>
+	</div>
+</div>
 {% endfor %}
 
 
-<div id="paginator">
+<!-- <div id="paginator">
     {% if paginator.next_page %}
             <a href="{{site.baseurl}}/page{{paginator.next_page}}">
             &laquo; Older Posts</a>
@@ -45,4 +37,4 @@ title: Home
                 </span>
         {% endif %}
     {% endif %}
-</div>
+</div> -->
