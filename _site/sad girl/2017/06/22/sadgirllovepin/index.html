@@ -23,31 +23,41 @@
 
     <nav>
 
-    		<ul>
+    		<ul class="navigation">
     				<li><a href="/">Home</a></li>
-            <li><a href="/artists.html">Artists</a></li>
-          <li><a href="/contact.html">Contact</a></li>
+            <li><a href="/artists">Artists</a></li>
+          <li><a href="/contact">Contact</a></li>
     		</ul>
     </nav>
 
         <main>
 
             <article>
+<div class="row">
+
+  <div class="col-md-5 col-xs-12">
+          <img src= "/../img/lovepin.jpg">
+  </div>
+
+<div class="col-md-7 col-xs-0 postContent">
         <header>
             <h2>But You Told Me You Loved Me!</h2>
-            <p></p>
-            <p></p>
+            <p>Sad Girl Pin</p>
+            <p>Zach and Kayla</p>
         </header>
 
-        <div class="entry"><p>Sad Girl Pin content here elrkewjslk seldkrj  lkjrw</p>
+        <ul>
+          <li><label>Category</label> Sad Girl</li>
+          <li>Sad Girl</li>
+        </ul>
 
-<div id='product-component-91344de3474'></div>
+        <div class="entry"><p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
 
-
+<div id="product-component-91344de3474"></div>
 <script type="text/javascript" src="/buybutton.js"></script>
 
 </div>
-
+</div>
         <footer><!-- additional info --></footer>
 
 </article>
@@ -62,5 +72,11 @@
 
         <script src="/scripts.js"></script>
     </body>
+
+    <script>
+
+    // Getting only the links that are in .navigation
+    var links = document.querySelectorAll('.navigation a[href="'+document.URL+'"]');
+    </script>
 
 </html>

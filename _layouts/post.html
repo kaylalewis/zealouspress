@@ -3,14 +3,26 @@ layout: default
 ---
 
 <article>
+<div class="row">
+
+  <div class="col-md-5 col-xs-12">
+          <img src= "{{site.baseurl}}/{{ page.image }}">
+  </div>
+
+<div class="col-md-7 col-xs-0 postContent">
         <header>
             <h2>{{ page.title }}</h2>
-            <p>{{post.description}}</p>
-            <p>{{post.author}}</p>
+            <p>{{ page.description }}</p>
+            <p>{{ page.author }}</p>
         </header>
 
-        <div class="entry">{{ content }}</div>
+        <ul>
+          <li><label>Category</label> {{ page.category }}</li>
+          <li>{{ page.category }}</li>
+        </ul>
 
+        <div class="entry">{{ content }}</div>
+</div>
         <footer><!-- additional info --></footer>
 
 </article>

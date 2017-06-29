@@ -3,48 +3,42 @@
 	<channel>
 		<title>Zealous Press</title>
 		<description>Zealous website for Zealous people</description>
-		<link>http://zealouspress.com/</link>
+		<link>http://localhost:4000</link>
 		
 			<item>
-				<title>Sorry I Made It Weird II</title>
-				<description>&lt;p&gt;Sad Girl Pin content here elrkewjslk seldkrj  lkjrw&lt;/p&gt;
-
-&lt;div id=&#39;product-component-91344de3474&#39;&gt;&lt;/div&gt;
-
-
-&lt;script type=&quot;text/javascript&quot; src=&quot;/buybutton.js&quot;&gt;&lt;/script&gt;
-
+				<title>Four Short Stories and a Pizza Hut Essay</title>
+				<description>&lt;p&gt;Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.&lt;/p&gt;
 </description>
-				<published>2017-06-22 00:00:00 -0500</published>
-				<link>http://zealouspress.com//sad%20girl/2017/06/22/sdk/</link>
-			</item>
-		
-			<item>
-				<title>Sorry I Made It Weird</title>
-				<description>&lt;p&gt;Sad Girl Pin content here elrkewjslk seldkrj  lkjrw&lt;/p&gt;
-
-&lt;div id=&#39;product-component-91344de3474&#39;&gt;&lt;/div&gt;
-
-
-&lt;script type=&quot;text/javascript&quot; src=&quot;/buybutton.js&quot;&gt;&lt;/script&gt;
-
-</description>
-				<published>2017-06-22 00:00:00 -0500</published>
-				<link>http://zealouspress.com//sad%20girl/2017/06/22/sadgirlweird/</link>
+				<published>2017-06-29 00:00:00 -0500</published>
+				<link>http://localhost:4000/book/2017/06/29/four/</link>
 			</item>
 		
 			<item>
 				<title>But You Told Me You Loved Me!</title>
-				<description>&lt;p&gt;Sad Girl Pin content here elrkewjslk seldkrj  lkjrw&lt;/p&gt;
+				<description>&lt;p&gt;Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.&lt;/p&gt;
 
-&lt;div id=&#39;product-component-91344de3474&#39;&gt;&lt;/div&gt;
-
-
+&lt;div id=&quot;product-component-91344de3474&quot;&gt;&lt;/div&gt;
 &lt;script type=&quot;text/javascript&quot; src=&quot;/buybutton.js&quot;&gt;&lt;/script&gt;
 
 </description>
 				<published>2017-06-22 00:00:00 -0500</published>
-				<link>http://zealouspress.com//sad%20girl/2017/06/22/sadgirllovepin/</link>
+				<link>http://localhost:4000/sad%20girl/2017/06/22/sadgirllovepin/</link>
+			</item>
+		
+			<item>
+				<title>Sorry I Made It Weird</title>
+				<description>&lt;p&gt;Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.&lt;/p&gt;
+</description>
+				<published>2017-06-22 00:00:00 -0500</published>
+				<link>http://localhost:4000/sad%20girl/2017/06/22/sadgirlgravepin/</link>
+			</item>
+		
+			<item>
+				<title>Sorry I Made It Weird II</title>
+				<description>&lt;p&gt;Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.&lt;/p&gt;
+</description>
+				<published>2017-06-22 00:00:00 -0500</published>
+				<link>http://localhost:4000/sad%20girl/2017/06/22/churchsticker/</link>
 			</item>
 		
 	</channel>

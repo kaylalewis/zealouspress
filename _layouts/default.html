@@ -23,10 +23,10 @@
 
     <nav>
 
-    		<ul>
+    		<ul class="navigation">
     				<li><a href="{{site.baseurl}}/">Home</a></li>
-            <li><a href="{{site.baseurl}}/artists.html">Artists</a></li>
-          <li><a href="{{site.baseurl}}/contact.html">Contact</a></li>
+            <li><a href="{{site.baseurl}}/artists">Artists</a></li>
+          <li><a href="{{site.baseurl}}/contact">Contact</a></li>
     		</ul>
     </nav>
 
@@ -43,5 +43,11 @@
 
         <script src="{{site.baseurl}}/scripts.js"></script>
     </body>
+
+    <script>
+
+    // Getting only the links that are in .navigation
+    var links = document.querySelectorAll('.navigation a[href="'+document.URL+'"]');
+    </script>
 
 </html>

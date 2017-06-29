@@ -2,20 +2,91 @@ body {
 
     font-family: "Colfax", Sans-Serif;
     color:#564b47;
-    margin: 40px
+    margin: 20px 40px;
+}
+
+p {
+      font-size: 16px
+}
+
+header {
+
+  display: inline-block;
+
+}
+
+
+nav {
+
+display: inline-block;
+/*float: right;*/
+
 }
 
 ul li{
 
   list-style-type: none;
+
 }
 
-#mainGrid {
+li {
+    display: inline;
 
-display: inline-block;
+}
+
+nav li a {
+
+    color: gray;
+    text-align: center;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+.navigation a.active {color:red;}
+
+nav li a:hover {
+    color: black;
+}
+
+.grid {
+
+  padding: 10px !important
 }
 
 img{
 
-  width: 20%;
+width: 100%;
+
+
+}
+
+img.front {
+
+  width: 100%;
+  margin-bottom: 20px
+}
+
+h2, h4 {
+
+  font-family: "Roboto Condensed", serif
+}
+
+main{
+
+  margin-top: 50px;
+}
+
+.postContent {
+
+  padding-left: 25px
+}
+
+.postContent > ul {
+
+  list-style-type: none;
+}
+
+label {
+
+  padding-right: 12px;
 }

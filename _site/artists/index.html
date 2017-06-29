@@ -23,18 +23,16 @@
 
     <nav>
 
-    		<ul>
+    		<ul class="navigation">
     				<li><a href="/">Home</a></li>
-            <li><a href="/artists.html">Artists</a></li>
-          <li><a href="/contact.html">Contact</a></li>
+            <li><a href="/artists">Artists</a></li>
+          <li><a href="/contact">Contact</a></li>
     		</ul>
     </nav>
 
         <main>
 
-            <div class="post">
-
-    <h2>Artists</h2>
+                <h2>Artists</h2>
 
 	<div class="entry"><section>
     <address>
@@ -44,8 +42,6 @@
         <i class="icon-mail"></i> <a href="mailto:zealouspress@gmail.com">zealouspress@gmail.com</a></p>
     </address>
 </section>
-</div>
-
 </div>
 
 
@@ -58,5 +54,11 @@
 
         <script src="/scripts.js"></script>
     </body>
+
+    <script>
+
+    // Getting only the links that are in .navigation
+    var links = document.querySelectorAll('.navigation a[href="'+document.URL+'"]');
+    </script>
 
 </html>
