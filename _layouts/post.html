@@ -12,13 +12,14 @@ layout: default
 <div class="col-md-7 col-xs-0 postContent">
         <header>
             <h2>{{ page.title }}</h2>
-            <p>{{ page.description }}</p>
-            <p>{{ page.author }}</p>
         </header>
 
         <ul>
+          <li><label>Author</label> {{ page.author }}</li>
+          <br>
           <li><label>Category</label> {{ page.category }}</li>
-          <li>{{ page.category }}</li>
+          <br>
+          <li><label>Date Published</label> {{ page.date }}</li>
         </ul>
 
         <div class="entry">{{ content }}</div>
