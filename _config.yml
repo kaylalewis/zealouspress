@@ -3,8 +3,8 @@ title: Zealous Press
 email: klewis6@saic.edu
 description: > # this means to ignore newlines until "baseurl:"
   All rights reserved.
-destination: zealouspress.com
-url: "https://zealouspress.com" # the base hostname & protocol for your site
+destination: zealous.press
+url: "https://zealous.press" # the base hostname & protocol for your site
 # twitter_username: zealouspress
 github_username: kaylalewis
 
