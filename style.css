@@ -7,7 +7,6 @@
 @font-face {
 	font-family: 'Brown-Thin-Backslanted';
 	src: url('Brown-Thin-Backslanted.otf');
-	font-weight: bold;
 }
 
 @font-face {
@@ -19,26 +18,94 @@
 body {
 
     font-family: "Brown-Bold", Sans-Serif;
-    color:#564b47;
+    color:#501700;
     margin: 20px 40px;
 }
 
-p {
-      font-size: 16px
-}
+
 
 header {
 
-  display: inline-block;
+	margin-top: 20px
 
 }
 
+#logo {
+width:150px;
+
+}
 
 nav {
 
-display: inline-block;
-/*float: right;*/
 
+margin-top: 30px;
+/*float: right;*/
+}
+
+.one {
+  font-size: 48px;
+	border-bottom: 5px solid #82BBC0;
+}
+
+.two {
+  font-size: 48px;
+	border-bottom: 5px solid #FFD8E0;
+	width: 190px;
+
+
+}
+
+#featured{
+
+	/*margin-left: 50px*/
+}
+
+#firstBox {
+position: absolute;
+background-color: #ffd8e0;
+width: 80%;
+height:500px;
+z-index: -10;
+top: 110px;
+margin-left: 10px;
+
+}
+
+#secondBox {
+	position: absolute;
+	background-color: #82bbc0;
+	width: 80%;
+	height:500px;
+	z-index: -10;
+	/*top: 110px;*/
+	margin-left: 20%;
+	margin-top: 200px
+
+
+}
+
+h3 {
+	font-size: 26px;
+}
+
+p {
+  font-size: 16px
+}
+
+.navigation > li {
+
+	font-size: 14px;
+	text-transform: uppercase;
+	padding-right: 50px
+}
+
+a {
+	color:#82BBc0;
+}
+
+a:hover {
+	font-family:'Brown-Thin-Backslanted';
+	color: #501700
 }
 
 ul li{
@@ -54,16 +121,16 @@ li {
 
 nav li a {
 
-    color: gray;
+    color: #501700;
     text-align: center;
     padding: 5px 10px;
     text-decoration: none;
 }
 
-.navigation a.active {color:red;}
 
 nav li a:hover {
-    color: black;
+    color: #82BBC0;
+		font-family: "Brown-Bold-Backslanted"
 }
 
 .grid {
@@ -74,19 +141,12 @@ nav li a:hover {
 img{
 
 width: 100%;
-
-
 }
 
 img.front {
 
   width: 100%;
   margin-bottom: 20px
-}
-
-h2, h4 {
-
-  font-family: "Roboto Condensed", serif
 }
 
 main{
