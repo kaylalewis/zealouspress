@@ -4,34 +4,32 @@
 		<title></title>
 		<description>All rights reserved.
 </description>
-		<link>http://localhost:4000</link>
+		<link>https://zealous.press</link>
 		
 			<item>
 				<title>But You Told Me You Loved Me!</title>
 				<description>&lt;p&gt;A manatee’s interpretation of love differs significantly from his involuntary human lover’s.&lt;/p&gt;
 
 &lt;div id=&quot;product-component-91344de3474&quot;&gt;&lt;/div&gt;
-&lt;script type=&quot;text/javascript&quot; src=&quot;/buybutton.js&quot;&gt;&lt;/script&gt;
-
 </description>
-				<published>2017-05-01 00:00:00 -0500</published>
-				<link>http://localhost:4000/pin/2017/05/01/sadgirllovepin.html</link>
+				<published>2017-05-01 00:00:00 -0400</published>
+				<link>https://zealous.press/pin/2017/05/01/sadgirllovepin.html</link>
 			</item>
 		
 			<item>
 				<title>Sorry I Made It Weird</title>
 				<description>&lt;p&gt;We always regret our awkward antics, even from the grave.&lt;/p&gt;
 </description>
-				<published>2017-05-01 00:00:00 -0500</published>
-				<link>http://localhost:4000/pin/2017/05/01/sadgirlgravepin.html</link>
+				<published>2017-05-01 00:00:00 -0400</published>
+				<link>https://zealous.press/pin/2017/05/01/sadgirlgravepin.html</link>
 			</item>
 		
 			<item>
 				<title>Oops, Burned Another Church!</title>
 				<description>&lt;p&gt;Dammit, Grandma. Not again!&lt;/p&gt;
 </description>
-				<published>2017-05-01 00:00:00 -0500</published>
-				<link>http://localhost:4000/sticker/2017/05/01/churchsticker.html</link>
+				<published>2017-05-01 00:00:00 -0400</published>
+				<link>https://zealous.press/sticker/2017/05/01/churchsticker.html</link>
 			</item>
 		
 			<item>
@@ -67,16 +65,16 @@ $(document).ready(function() {
 &lt;/script&gt;
 
 </description>
-				<published>2017-04-01 00:00:00 -0500</published>
-				<link>http://localhost:4000/book/2017/04/01/four.html</link>
+				<published>2017-04-01 00:00:00 -0400</published>
+				<link>https://zealous.press/book/2017/04/01/four.html</link>
 			</item>
 		
 			<item>
 				<title>Living With Big Data</title>
 				<description>&lt;p&gt;LWBD is a zine with randomly-generated collages that converse with algorithmically-generated text.&lt;/p&gt;
 </description>
-				<published>2016-08-01 00:00:00 -0500</published>
-				<link>http://localhost:4000/zine/2016/08/01/lwbd.html</link>
+				<published>2016-08-01 00:00:00 -0400</published>
+				<link>https://zealous.press/zine/2016/08/01/lwbd.html</link>
 			</item>
 		
 	</channel>

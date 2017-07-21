@@ -2,28 +2,28 @@
 layout: default
 ---
 
-<article>
+<article class="postBack">
 <div class="row">
 
-  <div class="col-md-5 col-xs-12">
+  <div class="col-md-6 col-xs-12">
           <img src= "{{site.baseurl}}/{{ page.image }}">
   </div>
 
-<div class="col-md-7 col-xs-0 postContent">
+<div class="col-md-6 col-xs-0 postContent">
         <header>
             <h2>{{ page.title }}</h2>
         </header>
+          <p>By {{ page.author }}</p>
+        <h4>{{ page.price }}</h4>
+        <button type="button" class="btn">ADD TO CART</button>
 
-        <ul>
-          <li><label>Author</label> {{ page.author }}</li>
-          <br>
-          <li><label>Category</label> {{ page.category }}</li>
-          <br>
-          <li><label>Date Published</label> {{ page.date }}</li>
-        </ul>
 
         <div class="entry">{{ content }}</div>
+<br>
+<h5>Details</h5>
+<p>
+<label>Category</label> {{ page.category }}
+  <br>
+<label>Date Published</label> {{ page.date }}</p>
 </div>
-        <footer><!-- additional info --></footer>
-
 </article>

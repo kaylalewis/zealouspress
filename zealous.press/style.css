@@ -15,6 +15,13 @@
 	font-weight: bold;
 }
 
+.btn{
+	margin:0 0 20px 0;
+	background-color: #82bbc0;
+	color: #f8f8f8;
+	padding: 10px 15px
+}
+
 body {
 
     font-family: "Brown-Bold", Sans-Serif;
@@ -65,6 +72,7 @@ margin-top: 30px;
 #catalog {
 
 	margin-top: 500px;
+	margin-left: 130px
 }
 
 #firstBox {
@@ -73,8 +81,7 @@ background-color: #ffd8e0;
 width: 80%;
 height:500px;
 z-index: -10;
-top: 110px;
-margin-left: 10px;
+margin: -250px 6% 0 2%;
 
 }
 
@@ -85,7 +92,7 @@ margin-left: 10px;
 	height:500px;
 	z-index: -10;
 	/*top: 110px;*/
-	margin-left: 20%;
+	margin-left: 225px;
 	margin-top: -330px
 
 
@@ -95,8 +102,16 @@ h3 {
 	font-size: 26px;
 }
 
+h4 {
+	font-size: 24px;
+}
+
 p {
   font-size: 16px
+}
+
+label{
+	font-size: 16px;
 }
 
 .navigation > li {
@@ -163,12 +178,22 @@ main{
 
 .postContent {
 
-  padding-left: 25px
+  padding-left: 25px;
+
 }
 
 .postContent > ul {
 
   list-style-type: none;
+}
+
+.postBack {
+
+		background-color: #ffd8e0;
+		position: absolute;
+		padding: 50px 170px;
+		z-index: -10;
+		margin: -150px 6% 0 2%;
 }
 
 label {
@@ -179,3 +204,9 @@ label {
 .reg {
   width: auto;
 }
+
+.store {
+position: absolute;
+margin-left: 20%;
+margin-right: 10%;
+margin-top: -150px}

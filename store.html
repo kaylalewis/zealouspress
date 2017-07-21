@@ -23,17 +23,17 @@ type: page
 </div>
 
 	{% endfor %} -->
-
+<div class="store">
 <div class="row">
 	{% for post in site.posts %}
 			<div class="col-md-4">
 					<a href="{{site.baseurl}}{{post.url}}"><img class="front" src="{{post.image}}"></a>
 						<h4><a href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a></h4>
-						<p>{{post.category}}</p>
-						<p>{{post.author}}</p>
+						<p>By {{post.author}}<br>{{post.price}}</p>
 					</div>
 
 	{% endfor %}
+</div>
 </div>
 
 
