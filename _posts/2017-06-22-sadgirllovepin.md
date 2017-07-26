@@ -8,6 +8,7 @@ image: ../img/lovepin.jpg
 date: May 2017
 excerpt: A manatee's interpretation of love differs significantly from his involuntary human lover's.
 price: $4.00
+dateP: 2017
 ---
 
 A manatee's interpretation of love differs significantly from his involuntary human lover's.

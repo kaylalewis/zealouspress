@@ -49,6 +49,10 @@ margin-top: 30px;
 /*float: right;*/
 }
 
+.all {
+	margin-top: 75px
+}
+
 .one {
   font-size: 48px;
 	border-bottom: 5px solid #82BBC0;
@@ -57,7 +61,15 @@ margin-top: 30px;
 .two {
   font-size: 48px;
 	border-bottom: 5px solid #FFD8E0;
-	width: 190px;
+	width: 890px;
+
+
+}
+
+.three {
+  font-size: 78px;
+	border-bottom: 5px solid #FFD8E0;
+	/*width: 190px;*/
 
 
 }
@@ -67,11 +79,16 @@ margin-top: 30px;
 	/*margin-left: 50px*/
 }
 
+img.featuredImg {
+	width:80%;
+	position: absolute;
+}
+
 
 
 #catalog {
 
-	margin-top: 500px;
+	margin-top: 150px;
 	margin-left: 130px
 }
 
@@ -79,21 +96,22 @@ margin-top: 30px;
 position: absolute;
 background-color: #ffd8e0;
 width: 80%;
-height:500px;
+height:650px;
 z-index: -10;
-margin: -250px 6% 0 2%;
+margin: -650px 6% 0 2%;
 
 }
 
 #secondBox {
 	position: absolute;
 	background-color: #82bbc0;
-	width: 80%;
+	width: 75%;
 	height:500px;
 	z-index: -10;
 	/*top: 110px;*/
 	margin-left: 225px;
-	margin-top: -330px
+	margin-top: -220px;
+	margin-right: 50%;
 
 
 }

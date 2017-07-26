@@ -7,6 +7,5 @@ destination: zealous.press
 url: "https://zealous.press" # the base hostname & protocol for your site
 # twitter_username: zealouspress
 github_username: kaylalewis
-
 # Build settings
 markdown: kramdown
