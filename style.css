@@ -40,6 +40,7 @@ header {
 #logo {
 width:150px;
 
+
 }
 
 nav {
@@ -50,8 +51,9 @@ margin-top: 30px;
 }
 
 .all {
-	margin-top: 75px
+	/*margin-top: 75px*/
 }
+
 
 .one {
   font-size: 48px;
@@ -61,60 +63,100 @@ margin-top: 30px;
 .two {
   font-size: 48px;
 	border-bottom: 5px solid #FFD8E0;
-	width: 890px;
+	width: 190px;
 
 
 }
 
-.three {
-  font-size: 78px;
-	border-bottom: 5px solid #FFD8E0;
-	/*width: 190px;*/
+.title {
 
+	font-size: 24px;
+	padding-top: 20px
+}
+
+#allCatalog .price {
+
+	color: #ffd8e0;
+}
+
+#allFeatured{
+
+	/*width: 85%;*/
+	margin: -105px 0% 0 10%;
 
 }
+
+.ftImg {
+	padding-top: 20px;
+	margin-right: -150px !important;
+	padding-right: 0 !important
+}
+
 
 #featured{
 
-	/*margin-left: 50px*/
+
+	margin-left: 0
+
 }
 
-img.featuredImg {
-	width:80%;
-	position: absolute;
+.fBlurb{
+	padding-top: 100px
+}
+
+.fBlurb>.price{
+
+color: #82bbc0;
+margin-bottom: 100px
+
+}
+
+.fLink{
+
+
+
 }
 
 
+#allCatalog{
+
+margin-top: 200px;
+margin-left: 130px
+}
 
 #catalog {
 
-	margin-top: 150px;
-	margin-left: 130px
+
 }
 
 #firstBox {
-position: absolute;
-background-color: #ffd8e0;
-width: 80%;
-height:650px;
-z-index: -10;
-margin: -650px 6% 0 2%;
+
+	background-color: #ffd8e0;
+
 
 }
 
 #secondBox {
-	position: absolute;
 	background-color: #82bbc0;
-	width: 75%;
-	height:500px;
+	/*width: 75%;
 	z-index: -10;
-	/*top: 110px;*/
 	margin-left: 225px;
-	margin-top: -220px;
-	margin-right: 50%;
+	margin-top: 0px;
+	margin-right: 50%;*/
 
 
 }
+
+
+
+.gallery {
+
+margin: 0 !important;
+padding: 0 !important;
+
+}
+
+
 
 h3 {
 	font-size: 26px;
@@ -141,6 +183,10 @@ label{
 
 a {
 	color:#82BBc0;
+}
+
+a.altlink {
+	color:#ffd8e0
 }
 
 a:hover {
@@ -180,7 +226,7 @@ nav li a:hover {
 
 img{
 
-width: 100%;
+width: 80%;
 }
 
 img.front {
@@ -228,3 +274,35 @@ position: absolute;
 margin-left: 20%;
 margin-right: 10%;
 margin-top: -150px}
+
+
+
+/*about__________________________*/
+
+#aboutBox {
+position: relative;
+background-color:#82bbc0;
+z-index: -10;
+padding: 80px 20% 50px 30%;
+margin-top: -120px;
+
+}
+
+.three {
+  font-size: 48px;
+	border-bottom: 5px solid #FFD8E0;
+
+}
+
+.allAbout{
+
+	width: 85%;
+	margin: -200px 15% 0 3%;
+}
+
+#about {
+
+	margin-left: 93%;
+	padding-top: 100px
+
+}
