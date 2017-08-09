@@ -53,10 +53,11 @@
     </address>
 </section>
 
-<form action="https://formspree.io/zealousdotpress@gmail.com">
-    <input type="text" name="name">
-    <input type="email" name="_replyto">
-    <input type="submit" value="Send">
+<form method="POST" action="http://formspree.io/zealousdotpress@gmail.com">
+  <input type="email" name="email" placeholder="Your email">
+  <input type="text" name="_gotcha" style="display:none" />
+  <textarea name="message" placeholder="Your message"></textarea>
+  <button type="submit">Send</button>
 </form>
 </div>
 
