@@ -33,23 +33,18 @@ body {
 
 header {
 
-	margin-top: 20px
+	margin-top: 0px
 
 }
 
-#logo {
-width:150px
-
-
-}
 
 .navbar {
 	margin-top: 40px
 }
 
 .nav {
-	padding-top: 20px !important;
-	padding-left: 20%
+
+margin-left: 30%
 }
 
 .nav li {
@@ -57,115 +52,108 @@ width:150px
 	padding-right: 100px
 }
 
-
-
-.all {
-	/*margin-top:200px*/
-}
-
-
-.one {
-  font-size: 48px;
-	border-bottom: 5px solid #82BBC0;
-}
-
-.two {
-  font-size: 48px;
-	border-bottom: 5px solid #FFD8E0;
-	width: 190px;
-
-
-}
-
-.title {
+a.title {
 
 	font-size: 24px;
-	padding-top: 20px
+	padding-top: 20px;
+	color: #501700;
 }
 
-#allCatalog .price {
+#logo {
+width:150px;
+position: absolute;
 
-	color: #ffd8e0;
-}
-
-#allFeatured{
-
-	/*width: 85%;*/
-	margin: -105px 0% 0 10%;
 
 }
 
 .ftImg {
-	padding-top: 20px;
-	margin-right: -150px !important;
-	padding-right: 0 !important
-}
 
-
-#featured{
-
-
-	margin-left: 0
+display: inline-block;
+margin-right: -100px;
+padding-right: 0;
 
 }
 
-.fBlurb{
-	padding-top: 100px
+
+#featured {
+	display: inline-block;
+	width: 20%;
+
+
+
 }
 
-.fBlurb>.price{
+
+#firstBox {
+
+	background-color: #ffd8e0;
+	padding: 70px 0 20px 200px;
+	margin-left: 30px;
+	margin-top: -20px;
+	width:80%
+
+}
+
+#firstBox .title {
+	padding-top: 400px
+}
+
+.one {
+  font-size: 56px;
+	border-bottom: 5px solid #82BBC0;
+	position: absolute;
+	display: block;
+	top: 170px
+
+
+
+}
+
+
+
+#featured>.price{
 
 color: #82bbc0;
 margin-bottom: 100px
 
 }
 
-.fLink{
-
-
-
-}
-
-
-#allCatalog{
-
-margin-top: 200px;
-margin-left: 130px
-}
-
-#catalog {
-
-
-}
-
-#firstBox {
-
-	background-color: #ffd8e0;
-
-
-}
 
 #secondBox {
 	background-color: #82bbc0;
-	/*width: 75%;
-	z-index: -10;
-	margin-left: 225px;
-	margin-top: 0px;
-	margin-right: 50%;*/
+	padding: 20px 100px 50px 100px;
+	margin-top: 30px;
+	margin-left: 150px
 
 
 }
 
 
+.two {
+  font-size: 56px;
+	border-bottom: 5px solid #FFD8E0;
+	position: absolute;
+	display: block;
+	left: 100px
+}
 
 .gallery {
 
-margin: 0 !important;
+margin:100px 0 0 50px;
 padding: 0 !important;
 
 }
 
+#secondBox .price {
 
+	color: #ffd8e0;
+}
+
+
+#secondBox .title {
+
+padding-top: 20px;
+}
 
 h3 {
 	font-size: 26px;
@@ -306,7 +294,7 @@ margin-top: -120px;
 .allAbout{
 
 	width: 85%;
-	margin: -200px 15% 0 3%;
+	margin: -75px 15% 0 3%;
 }
 
 #about {
@@ -316,11 +304,28 @@ margin-top: -120px;
 
 }
 
+footer {
+padding-top: 100px;
+	left:0px;
+	bottom:0px;
+	height:30px;
+	width:100%;
+text-align: center;
+}
+
 
 @media (max-width: 991px) {
 
 #logo {
-	width:100px
+	width:100px;
+	position: relative;
 }
+
+#firstBox, #secondBox {
+	padding: 10px;
+}
+
+#featured{
+width: 100%}
 
 }

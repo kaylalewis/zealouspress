@@ -11,6 +11,6 @@ price: $4.00
 dateP: 2017
 ---
 
-A manatee's interpretation of love differs significantly from his involuntary human lover's.
+
 
 <div id='product-component-91344de3474'></div>

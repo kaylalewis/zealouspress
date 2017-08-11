@@ -10,5 +10,3 @@ excerpt: Dammit, Grandma. Not again!
 price: $5.00
 dateP: 2017
 ---
-
-Dammit, Grandma. Not again!
