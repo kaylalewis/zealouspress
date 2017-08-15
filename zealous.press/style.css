@@ -66,47 +66,42 @@ position: absolute;
 
 }
 
+
+.ftPar {
+	padding-top: 20px;
+}
+
 .ftImg {
-
-display: inline-block;
-margin-right: -100px;
-padding-right: 0;
-
+	top: 0px
 }
 
 
 #featured {
-	display: inline-block;
-	width: 20%;
-
-
-
+margin-left: 85%;
 }
 
 
 #firstBox {
 
 	background-color: #ffd8e0;
-	padding: 70px 0 20px 200px;
+	padding: 0px 0px 20px 200px;
 	margin-left: 30px;
 	margin-top: -20px;
 	width:80%
 
 }
 
-#firstBox .title {
-	padding-top: 400px
+.one {
+  font-size: 48px;
+	border-bottom: 5px solid #82BBC0;
+
+
+
 }
 
-.one {
-  font-size: 56px;
-	border-bottom: 5px solid #82BBC0;
-	position: absolute;
-	display: block;
-	top: 170px
+.ftPar>.price {
 
-
-
+	color: #82BBC0;
 }
 
 
@@ -121,7 +116,7 @@ margin-bottom: 100px
 
 #secondBox {
 	background-color: #82bbc0;
-	padding: 20px 100px 50px 100px;
+	padding: 50px 50px 50px 100px;
 	margin-top: 30px;
 	margin-left: 150px
 
@@ -129,17 +124,19 @@ margin-bottom: 100px
 }
 
 
+.catalog {
+margin-left: -20%;
+
+}
+
 .two {
-  font-size: 56px;
+  font-size: 48px;
 	border-bottom: 5px solid #FFD8E0;
-	position: absolute;
-	display: block;
-	left: 100px
 }
 
 .gallery {
 
-margin:100px 0 0 50px;
+margin:0px 0 0 50px;
 padding: 0 !important;
 
 }
@@ -314,18 +311,20 @@ text-align: center;
 }
 
 
-@media (max-width: 991px) {
+@media (max-width: 700px) {
 
 #logo {
-	width:100px;
+	width:50px;
 	position: relative;
 }
 
 #firstBox, #secondBox {
-	padding: 10px;
+	padding: 20px;
+	margin: 20px 0;
+	width: 100%
 }
 
-#featured{
-width: 100%}
-
+#featured, #catalog{
+	margin-left: 0%;
+	padding-bottom: 20px
 }
