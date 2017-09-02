@@ -16,7 +16,10 @@ layout: default
         </header>
           <p>By {{ page.author }}</p>
         <h4>{{ page.price }}</h4>
-        <button type="button" class="btn">ADD TO CART</button>
+
+        {{ page.content }}
+        <div id='product-component-{{ post.product }}'></div>
+        <!-- <button type="button" class="btn">ADD TO CART</button> -->
 
 
         <div class="entry">{{ page.excerpt }}</div>

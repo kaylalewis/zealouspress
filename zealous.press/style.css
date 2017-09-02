@@ -251,7 +251,7 @@ main{
 		position: absolute;
 		padding: 50px 170px;
 		z-index: -10;
-		margin: -150px 6% 0 2%;
+		margin: 0px 6% 0 2%;
 }
 
 label {
