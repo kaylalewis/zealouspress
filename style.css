@@ -346,4 +346,27 @@ text-align: center;
 			padding: 5% 5%;
 			margin: 0px 2% 0 2%;
 	}
+
+	#aboutBox {
+	padding: 20px;
+
+	}
+
+	.catalog {
+	margin-left: 0;
+
+	}
+
+	#about {
+
+		margin-left: 0;
+
+
+	}
+
+	#aboutBox {
+	margin-top: 0px;
+
+	}
+
 }
