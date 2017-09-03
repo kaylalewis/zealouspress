@@ -24,7 +24,9 @@ ui.createComponent('collection', {
     },
     toggle:{
       styles:{
-        toggle:buttonStyles
+        toggle:{
+          'background-color':'#82bbc0'
+        }
       }
     },
     cart:{

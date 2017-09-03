@@ -47,7 +47,9 @@ ui.createComponent('product', {
       },
       toggle:{
         styles:{
-          toggle:buttonStyles
+          toggle:{
+            'background-color':'#501700',
+          }
         }
       },
       cart:{
