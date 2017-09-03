@@ -41,7 +41,6 @@ header {
 }
 
 
-
 .navbar {
 	margin-top: 40px
 }
@@ -53,7 +52,8 @@ margin-left: 30%
 
 .nav li {
 
-	padding-right: 100px
+	padding-right: 75px;
+	white-space: nowrap;
 }
 
 a.title {
@@ -66,95 +66,39 @@ a.title {
 #logo {
 width:150px;
 position: absolute;
+float:left;
 
 
 }
 
-
-.ftPar {
-	padding-top: 20px;
-}
-
-.ftImg {
-	top: 0px
-}
-
-
-#featured {
-margin-left: 85%;
-}
-
-
-#firstBox {
-
-	background-color: #ffd8e0;
-	padding: 0px 0px 20px 200px;
-	margin-left: 30px;
-	margin-top: -20px;
-	width:80%
-
-}
-
-.one {
-  font-size: 48px;
-	border-bottom: 5px solid #82BBC0;
-
+.cart{
+	position: absolute;
+	margin-left: 80%;
+	white-space: nowrap;
+	display: block;
+	color: #f8f8f8;
+	background-color: #501700;
+	padding: 10px 30px;
+	border-radius: 2px;
+	border: none;
 
 
 }
 
-.ftPar>.price {
-
-	color: #82BBC0;
+.cart:hover{
+	background-color: #82bbc0
 }
 
+.navbar-toggle {
 
-
-#featured>.price{
-
-color: #82bbc0;
-margin-bottom: 100px
-
+	float: left;
 }
 
+main{
 
-#secondBox {
-	background-color: #82bbc0;
-	padding: 50px 50px 50px 100px;
-	margin-top: 30px;
-	margin-left: 150px
-
-
+  margin-top: 50px;
 }
 
-
-.catalog {
-margin-left: -20%;
-
-}
-
-.two {
-  font-size: 48px;
-	border-bottom: 5px solid #FFD8E0;
-}
-
-.gallery {
-
-margin:0px 0 0 50px;
-padding: 0 !important;
-
-}
-
-#secondBox .price {
-
-	color: #ffd8e0;
-}
-
-
-#secondBox .title {
-
-padding-top: 20px;
-}
 
 h3 {
 	font-size: 26px;
@@ -165,7 +109,7 @@ h4 {
 }
 
 p, .entry {
-  font-size: 16px
+  font-size: 18px
 }
 
 label{
@@ -217,6 +161,99 @@ nav li a:hover {
 		font-family: "Brown-Bold-Backslanted"
 }
 
+
+.ftPar {
+	padding-top: 20px;
+}
+
+.ftImg {
+	top: 0px
+}
+
+
+#featured {
+margin-left: 85%;
+
+}
+
+
+#firstBox {
+
+	background-color: #ffd8e0;
+	padding: 30px 0px 20px 200px;
+	margin-left: 30px;
+	margin-top: -20px;
+	width:80%
+
+}
+
+.one {
+  font-size: 48px;
+	border-bottom: 5px solid #82BBC0;
+
+
+
+}
+
+.ftPar>.price {
+
+	color: #82BBC0;
+}
+
+
+
+#featured>.price{
+
+color: #82bbc0;
+margin-bottom: 100px
+
+}
+
+
+#secondBox {
+	background-color: #82bbc0;
+	padding: 20px 20px 20px 100px;
+	margin-top: 30px;
+	margin-left: 150px
+
+
+}
+
+
+.catalog {
+margin-left: -20%;
+
+}
+
+.two {
+  font-size: 48px;
+	border-bottom: 5px solid #FFD8E0;
+}
+
+.gallery {
+
+	  -moz-column-count: 3;
+	  -webkit-column-count: 3;
+	  column-count: 3;
+	}
+
+.panel{
+	background-color: transparent;
+	border: solid 0 solid transparent;
+}
+
+#secondBox .price {
+
+	color: #ffd8e0;
+}
+
+
+#secondBox .title {
+
+padding-top: 20px;
+font-size: 20px;
+}
+
 .grid {
 
   padding: 10px !important
@@ -231,17 +268,6 @@ img.front {
 
   width: 100%;
   margin-bottom: 20px
-}
-
-main{
-
-  margin-top: 50px;
-}
-
-.postContent {
-
-
-
 }
 
 .postContent > ul {
@@ -281,7 +307,7 @@ margin-top: 0}
 position: relative;
 background-color:#82bbc0;
 z-index: -10;
-padding: 80px 20% 50px 30%;
+padding: 80px 20% 100px 30%;
 margin-top: -120px;
 
 }
@@ -320,11 +346,12 @@ text-align: center;
 }
 
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
 
 #logo {
-	width:50px;
+	width:75px;
 	position: relative;
+	margin-left: 25%;
 }
 
 #firstBox, #secondBox {
@@ -368,5 +395,17 @@ text-align: center;
 	margin-top: 0px;
 
 	}
+
+	.cart {
+		margin-left: 80%;
+		padding: 10px 20px
+	}
+
+	.gallery {
+
+		  -moz-column-count: 1;
+		  -webkit-column-count: 1;
+		  column-count: 1;
+		}
 
 }

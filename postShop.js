@@ -54,7 +54,14 @@ ui.createComponent('product', {
       },
       cart:{
         styles:{
-          button: buttonStyles
+          button: {
+            'font-size':'24px',
+            'font-family':'font.fontFamily',
+            'background-color':'#82bbc0',
+            ':hover':{
+              'background-color':'#501700'
+            }
+          }
         }
       }
     }

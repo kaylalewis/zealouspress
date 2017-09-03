@@ -1,3 +1,5 @@
+
+
 var client = ShopifyBuy.buildClient({
   apiKey: '643caf3f190864a023d11fbc67cb6125',
   domain: 'layla-kewis.myshopify.com',
@@ -25,13 +27,22 @@ ui.createComponent('collection', {
     toggle:{
       styles:{
         toggle:{
-          'background-color':'#82bbc0'
+          'background-color':'#501700',
+          ':hover':{
+            'background-color':'#82bbc0'
+          }
         }
       }
     },
     cart:{
       styles:{
-        button: buttonStyles
+        button: {
+            'font-size':'24px',
+            'background-color':'#82bbc0',
+            ':hover':{
+              'background-color':'#501700'
+            }
+        }
       }
     }
   }
