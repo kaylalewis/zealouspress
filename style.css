@@ -47,7 +47,7 @@ header {
 
 .nav {
 
-margin-left: 30%
+margin-left: 27%
 }
 
 .nav li {
@@ -180,7 +180,7 @@ margin-left: 85%;
 #firstBox {
 
 	background-color: #ffd8e0;
-	padding: 30px 0px 20px 200px;
+	padding: 30px 20px 20px 200px;
 	margin-left: 30px;
 	margin-top: -20px;
 	width:80%
@@ -237,7 +237,7 @@ margin-left: -20%;
 .panel{
 	background-color: transparent;
 	display: inline-block;
-	width: 33%;
+	width: 32%;
 	vertical-align: top;
 
 
@@ -370,15 +370,17 @@ text-align: center;
 	margin-left: 25%;
 }
 
-#firstBox, #secondBox {
+#firstBox, #secondBox{
 	padding: 20px;
-	margin: 20px 0;
+	margin: 70px 0;
 	width: 100%
 }
 
-#featured, #catalog{
+#featured, .catalog{
 	margin-left: 0%;
-	padding-bottom: 20px}
+	margin-top: -65px;
+margin-bottom: 40px
+}
 
 	.postContent{
 		padding-top: 20px
@@ -391,24 +393,22 @@ text-align: center;
 	}
 
 	#aboutBox {
-	padding: 20px;
-
-	}
-
-	.catalog {
-	margin-left: 0;
+	padding: 40px 20px;
+	margin-top: 0px;
+	margin-right: 0;
+	width:100%
 
 	}
 
 	#about {
 
-		margin-left: 0;
-
-
+		margin-left: 20px;
+		padding-top: 50px;
+		margin-bottom: -40px
 	}
 
-	#aboutBox {
-	margin-top: 0px;
+	.catalog {
+	margin-left: 0;
 
 	}
 
@@ -429,9 +429,35 @@ text-align: center;
 	}
 
 	.store{
-		margin-left: 25%
+		margin-left: 10%
 
 
+	}
+
+	.nav {
+
+	margin-left: 20%
+	}
+
+	.nav li {
+
+		padding-right: 55px;
+
+	}
+
+}
+
+@media (max-width: 700px) {
+	#logo {
+		width:75px;
+		position: relative;
+		margin-left: 25%;
+	}
+
+	.cart {
+		margin-left: 77%;
+		padding: 10px 20px;
+		margin-top: 10px
 	}
 
 }
