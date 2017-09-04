@@ -321,11 +321,11 @@ margin-top: 0}
 /*about__________________________*/
 
 #aboutBox {
-position: relative;
+
 background-color:#82bbc0;
-z-index: -10;
 padding: 80px 20% 100px 30%;
 margin-top: -120px;
+z-index: -10
 
 }
 
@@ -436,19 +436,16 @@ margin-bottom: 40px
 			margin: 0px 2% 0 2%;
 	}
 
-	#aboutBox {
-	padding: 40px 20px;
-	margin-top: 0px;
-	margin-right: 0;
-	width:100%
-
-	}
 
 	#about {
 
 		margin-left: 20px;
 		padding-top: 50px;
 		margin-bottom: -40px
+	}
+
+	#feedback{
+		z-index: 2;
 	}
 
 	.catalog {
