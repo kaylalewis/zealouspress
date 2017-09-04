@@ -16,10 +16,10 @@
 }
 
 .btn{
-	margin:0 0 20px 0;
+
 	background-color: #82bbc0;
 	color: #f8f8f8;
-	padding: 10px 15px
+	padding: 5px 15px
 }
 
 #postId{
@@ -67,6 +67,7 @@ a.title {
 width:150px;
 position: absolute;
 float:left;
+z-index: 2;
 
 
 }
@@ -316,6 +317,7 @@ margin-top: 0}
 
 
 
+
 /*about__________________________*/
 
 #aboutBox {
@@ -350,14 +352,56 @@ margin-top: -120px;
 	margin: 20%
 }
 
+.postBody{
+
+	padding-bottom: 850px;
+	z-index: -1
+}
+
+.postBack{
+
+	z-index: 1
+
+}
+
 footer {
-	display: none;
-padding-top: 1000px;
-	left:0px;
-	bottom:0px;
-	height:30px;
-	width:100%;
+padding-top: 60px;
 text-align: center;
+margin-top: -50px;
+position: relative;
+}
+
+footer img {
+	width: 45px;
+	margin-right: 5px;
+	margin-left: 5px
+}
+
+input[type=text], select {
+    padding: 5px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 3px solid #82bbc0;
+    border-radius: 2px;
+    box-sizing: border-box;
+		width: 300px;
+		color: #82bbc0;
+}
+
+footer p {
+
+	margin-bottom: 0
+}
+
+footer .btn{
+
+	background-color: #82bbc0;
+	color: #f8f8f8;
+	padding: 7px 15px
+}
+
+#insta, #tweet{
+	display: inline-block;
 }
 
 
@@ -444,6 +488,9 @@ margin-bottom: 40px
 		padding-right: 55px;
 
 	}
+	.postAll{
+		padding-bottom: 900px
+	}
 
 }
 
@@ -458,6 +505,15 @@ margin-bottom: 40px
 		margin-left: 77%;
 		padding: 10px 20px;
 		margin-top: 10px
+	}
+
+}
+
+@media (min-width: 1417px) {
+
+	.catalog {
+	margin-left: -10%;
+
 	}
 
 }
