@@ -204,7 +204,8 @@ margin-bottom: 100px
 	background-color: #82bbc0;
 	padding: 20px 20px 20px 100px;
 	margin-top: 30px;
-	margin-left: 100px
+	margin-left: 100px;
+	margin-bottom: 100px
 
 
 }
@@ -385,8 +386,8 @@ z-index: -10
 footer {
 padding-top: 60px;
 text-align: center;
-margin-top: -50px;
-position: relative;
+margin-top: 100px;
+margin-bottom: 100px
 }
 
 footer img {
@@ -396,15 +397,30 @@ footer img {
 	border: none;
 }
 
-input[type=text], select {
+
+#mc_embed_signup input.email{
+
+
+}
+
+form {
+	padding: 10px;
+}
+
+ input[type=email]{
     padding: 5px 10px;
     margin: 8px 0;
     display: inline-block;
     border: 3px solid #82bbc0;
     border-radius: 2px;
-    box-sizing: border-box;
-		width: 300px;
-		color: #82bbc0;
+    box-sizing: border-box;}
+
+#mc_embed_signup{background:#fff;
+	clear:left;
+	font-size:14px;
+	font-family:"Brown-Bold";
+	padding: 0 20px
+
 }
 
 footer p {
@@ -412,11 +428,11 @@ footer p {
 	margin-bottom: 0
 }
 
-footer .btn{
+.button{
 
-	background-color: #82bbc0;
+	background-color: #82bbc0 !important;
 	color: #f8f8f8;
-	padding: 7px 15px
+	font-family: "brown-bold"
 }
 
 #insta, #tweet{
@@ -537,11 +553,7 @@ margin-bottom: 40px
 		margin-left: 80%;
 		padding: 10px 20px
 	}
-	.panel{
-		background-color: transparent;
-		display: block;
-		width: 100%
-	}
+
 
 	img.front {
 
@@ -565,6 +577,11 @@ margin-bottom: 40px
 @media (max-width: 540px){
 	#logo{
 		margin-left: 43%
+	}
+	.panel{
+		background-color: transparent;
+		display: block;
+		width: 100%
 	}
 }
 

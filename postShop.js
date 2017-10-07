@@ -26,7 +26,8 @@ ui.createComponent('product', {
             product:{
               'margin-top':'-20px',
               'padding':'0',
-              'width':'100%'
+              'width':'100%',
+              'background-color':'#82bbc0'
             },
             img:{
               'display':'none'
@@ -41,7 +42,10 @@ ui.createComponent('product', {
               'background-color':'#82bbc0',
               'width':'100%',
               'font-weight':'bold',
-              ':hover':{'background-color':'#501700'}
+              ':hover':{'background-color':'#501700'},
+              ':visited':{'background-color':'#82bbc0'},
+              ':active':{'background-color':'#82bbc0'},
+              ':focus':{'background-color':'#82bbc0'}
 
             }
           }
