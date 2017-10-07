@@ -223,13 +223,13 @@ margin-left: -20%;
 
 .gallery a {
 
-font-family: "brown-bold";
+font-family: "Brown-Bold";
 color: #501700;
 	}
 
 	.gallery a:hover {
 
-	font-family: "brown-thin-backslanted";
+	font-family: "Brown-Thin-Backslanted";
 	color: #501700;
 		}
 
@@ -360,7 +360,7 @@ z-index: -10
 
 #blogBox h4 {
 
-	font-family: "brown-bold-backslanted";
+	font-family: "Brown-Bold-Backslanted";
 	font-size: 18px;
 	color:#FFD8E0
 }
@@ -432,7 +432,7 @@ footer p {
 
 	background-color: #82bbc0 !important;
 	color: #f8f8f8;
-	font-family: "brown-bold"
+	font-family: "Brown-Bold"
 }
 
 #insta, #tweet{
