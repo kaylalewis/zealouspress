@@ -1,0 +1,32 @@
+---
+layout: page
+title: Blog
+type: page
+---
+
+<div class="allBlog">
+
+  <div id="blog">
+  	<h2><span class="three">Blog</span></h2>
+  </div>
+
+<div id="blogBox">
+
+  {% for post in site.posts %}
+     {% if post.type == "blog" %}
+
+       <h2>{{ post.title }}</h2>
+       <h4>{{ post.date | date_to_string }}</h4>
+
+       <div>
+         {{ post.content }}
+       </div>
+
+      {% endif %}
+    {% endfor %}
+
+</div>
+
+</div>
+
+<script src="{{site.baseurl}}/scriptsNone.js"></script>

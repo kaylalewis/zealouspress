@@ -9,6 +9,7 @@ image: ../img/sorry.jpg
 excerpt: We always regret our awkward antics, even from the grave.
 price: $5.00
 dateP: 2017
+type: product
 ---
 
 <div id="postId">48690528283</div>

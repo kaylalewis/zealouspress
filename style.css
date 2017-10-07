@@ -15,6 +15,10 @@
 	font-weight: bold;
 }
 
+/*#littleNav {
+	display:none;
+}*/
+
 .btn{
 
 	background-color: #82bbc0;
@@ -40,21 +44,51 @@ header {
 
 }
 
+/*_______________NAV_________________*/
 
-.navbar {
-	margin-top: 40px
+.nav ul {
+margin-top: 40px;
+text-align: center;
+
 }
 
-.nav {
-
-margin-left: 27%
-}
-
-.nav li {
-
+.nav ul li{
+  list-style-type: none;
 	padding-right: 75px;
-	white-space: nowrap;
 }
+
+li {
+    display: inline;
+}
+
+.nav li a {
+    color: #501700;
+    text-align: center;
+    padding: 5px 10px 5px 0;
+    text-decoration: none;
+}
+
+
+.nav li a:hover {
+    color: #82BBC0;
+		font-family: "Brown-Bold-Backslanted"
+}
+
+
+#logo {
+width:150px;
+position: absolute;
+float:left;
+z-index: 2;
+margin-top: 30px;
+border: none;
+
+
+}
+
+/*___________________________*/
+
+
 
 a.title {
 
@@ -63,14 +97,6 @@ a.title {
 	color: #501700;
 }
 
-#logo {
-width:150px;
-position: absolute;
-float:left;
-z-index: 2;
-
-
-}
 
 .cart{
 	position: absolute;
@@ -88,11 +114,6 @@ z-index: 2;
 
 .cart:hover{
 	background-color: #82bbc0
-}
-
-.navbar-toggle {
-
-	float: left;
 }
 
 main{
@@ -117,13 +138,6 @@ label{
 	font-size: 16px;
 }
 
-.navigation > li {
-
-	font-size: 14px;
-	text-transform: uppercase;
-	padding-right: 50px
-}
-
 a {
 	color:#82BBc0;
 }
@@ -135,31 +149,6 @@ a.altlink {
 a:hover {
 	font-family:'Brown-Thin-Backslanted';
 	color: #501700
-}
-
-ul li{
-
-  list-style-type: none;
-
-}
-
-li {
-    display: inline;
-
-}
-
-nav li a {
-
-    color: #501700;
-    text-align: center;
-    padding: 5px 10px;
-    text-decoration: none;
-}
-
-
-nav li a:hover {
-    color: #82BBC0;
-		font-family: "Brown-Bold-Backslanted"
 }
 
 
@@ -231,9 +220,18 @@ margin-left: -20%;
 	border-bottom: 5px solid #FFD8E0;
 }
 
-.gallery {
+.gallery a {
 
+font-family: "brown-bold";
+color: #501700;
 	}
+
+	.gallery a:hover {
+
+	font-family: "brown-thin-backslanted";
+	color: #501700;
+		}
+
 
 .panel{
 	background-color: transparent;
@@ -271,6 +269,7 @@ font-size: 20px;
 img{
 
 width: 80%;
+border: .5px solid #e0e0e0
 }
 
 .panel img {
@@ -320,7 +319,7 @@ margin-top: 0}
 
 /*about__________________________*/
 
-#aboutBox {
+#aboutBox, #blogBox {
 
 background-color:#82bbc0;
 padding: 80px 20% 100px 30%;
@@ -335,21 +334,40 @@ z-index: -10
 
 }
 
-.allAbout{
+.allAbout, .allBlog{
 
 	width: 85%;
 	margin: -75px 15% 0 3%;
 }
 
-#about {
+#about, #blog {
 
 	margin-left: 93%;
 	padding-top: 100px
 
 }
 
-#contact{
-	margin: 20%
+#blogBox {
+
+}
+
+#blogBox h2 {
+
+
+
+}
+
+#blogBox h4 {
+
+	font-family: "brown-bold-backslanted";
+	font-size: 18px;
+	color:#FFD8E0
+}
+
+#blogBox div {
+
+	margin-top: 20px;
+	border-bottom: 2px solid #FFD8E0
 }
 
 .postBody{
@@ -374,7 +392,8 @@ position: relative;
 footer img {
 	width: 45px;
 	margin-right: 5px;
-	margin-left: 5px
+	margin-left: 5px;
+	border: none;
 }
 
 input[type=text], select {
@@ -406,12 +425,58 @@ footer .btn{
 
 
 
-@media (max-width: 800px) {
+@media (max-width: 992px) {
+
+	body {
+
+	    margin: 0px;
+	}
+
+main {
+	margin: 30px;
+}
+
+.nav {
+	display: block;
+	background-color: #ffd8e0;
+
+}
+.nav ul {
+margin: 130px 0 0 0;
+text-align: center;
+background-color: #82bbc0;
+padding: 20px 0;
+
+}
+
+.nav ul li{
+  list-style-type: none;
+	padding-right: 15px;
+	text-align: center;
+}
+
+.nav li a:hover {
+    color: #ffffff;
+}
+
+li {
+    display: inline;
+}
+
+.nav li a {
+    color: #501700;
+    padding: 5px 30px;
+    text-decoration: none;
+}
 
 #logo {
 	width:75px;
+	display: block;
 	position: relative;
-	margin-left: 25%;
+	margin-left: 45%;
+	margin-right: auto;
+	margin-top: 20px;
+
 }
 
 #firstBox, #secondBox{
@@ -437,11 +502,26 @@ margin-bottom: 40px
 	}
 
 
-	#about {
+	#about, #blog {
 
-		margin-left: 20px;
+		margin: -100px 20px 0 20px;
 		padding-top: 50px;
-		margin-bottom: -40px
+		margin-bottom: 70px;
+	}
+
+	#aboutBox, #blogBox {
+
+	padding: 60px 5%;
+	margin-top: -100px;
+	z-index: -10
+
+	}
+
+	.allAbout, .allBlog{
+
+		width: 100%;
+		margin-top: 80px;
+		margin-left: 0
 	}
 
 	#feedback{
@@ -466,44 +546,32 @@ margin-bottom: 40px
 	img.front {
 
 	  width: 80%;
-	  margin-bottom: 20px
+	  margin-bottom: 20px;
 	}
 
 	.store{
-		margin-left: 10%
+		margin-left: 25%;
 
 
 	}
 
-	.nav {
 
-	margin-left: 20%
-	}
-
-	.nav li {
-
-		padding-right: 55px;
-
-	}
 	.postAll{
 		padding-bottom: 900px
 	}
 
 }
 
-@media (max-width: 700px) {
-	#logo {
-		width:75px;
-		position: relative;
-		margin-left: 15%;
+@media (max-width: 540px){
+	#logo{
+		margin-left: 43%
 	}
+}
 
-	.cart {
-		margin-left: 77%;
-		padding: 10px 20px;
-		margin-top: 10px
+@media (max-width: 400px){
+	#logo{
+		margin-left: 41%
 	}
-
 }
 
 @media (min-width: 1417px) {

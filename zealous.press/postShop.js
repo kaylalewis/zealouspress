@@ -40,7 +40,8 @@ ui.createComponent('product', {
             button:{
               'background-color':'#82bbc0',
               'width':'100%',
-              'font-weight':'bold'
+              'font-weight':'bold',
+              ':hover':{'background-color':'#501700'}
 
             }
           }
@@ -49,18 +50,30 @@ ui.createComponent('product', {
         styles:{
           toggle:{
             'background-color':'#501700',
+            ':hover':{'background-color':'#82bbc0'}
           }
         }
       },
       cart:{
+        text:{
+          title: 'My Cart'
+        },
         styles:{
           button: {
-            'font-size':'24px',
-            'font-family':'font.fontFamily',
+            'font-size':'14px',
+            'text-transform': 'uppercase',
+            'font-family':'Arial',
+            'font-weight':'bold',
             'background-color':'#82bbc0',
             ':hover':{
               'background-color':'#501700'
             }
+          },
+          title:{'font-size':'18px',
+            'color':'#501700',
+            'font-family':'Arial',
+            'font-weight':'bold'
+
           }
         }
       }
