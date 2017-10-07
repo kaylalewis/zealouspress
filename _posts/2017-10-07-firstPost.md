@@ -21,3 +21,7 @@ This is just a start, and we have a lot to learn, but we’ve built an outlet fo
 I firmly believe that being comfortable with creativity makes people unafraid to push limits, because they know that new and fantastic possibilities await. In fact, it becomes addicting.
 
 Welcome to Zealous Press.
+
+Looking forward to working with you,
+<br>
+Kayla
