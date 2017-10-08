@@ -7,7 +7,7 @@ author: Sad Girl
 date: May 2017
 image: ../img/sorry.jpg
 excerpt: We always regret our awkward antics, even from the grave.
-price: $7.00
+price: $5.00
 dateP: 2017
 type: product
 ---
